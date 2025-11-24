@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+  <code>SafeLoader</code>
+  <name>SafeLoader</name>
+  <version>1.0</version>
+  <author>sv2109@gmail.com</author>
+  <link>http://sv2109.com</link>
+	
+	<file path="catalog/controller/product/search.php">
+                
+		<operation>
+                
+			<search><![CDATA[                          
+			]]></search>
+                        
+			<add position="before"><![CDATA[
+      
+			
+			]]></add>
+                        
+		</operation>
+
+	</file>        
+
+</modification>
