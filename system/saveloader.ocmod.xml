@@ -6,16 +6,16 @@
   <author>sv2109@gmail.com</author>
   <link>http://sv2109.com</link>
 	
-	<file path="catalog/controller/product/search.php">
+	<file path="system/engine/loader.php">
                 
 		<operation>
                 
-			<search><![CDATA[                          
+			<search><![CDATA[      
+			$this->registry = $registry;                    
 			]]></search>
                         
-			<add position="before"><![CDATA[
-      
-			
+			<add position="after"><![CDATA[
+    $this->library('safeloader');
 			]]></add>
                         
 		</operation>
